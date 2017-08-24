@@ -17,7 +17,7 @@ Adrien Besson<sup>1</sup>, Dimitris Perdios<sup>1</sup>, Florian Martinez<sup>1<
 Manuscript accepted to the [IEEE International Ultrasonics Symposium (IUS 2017)].
 
 ## Abstract
-Ultrafast ultrasound~(US) imaging uses unfocused waves to insonify the whole medium of interest at once, allowing pulse-echo US imaging to achieve very high frame rates, at the cost of a lower image quality. In this paper, we present USSR, an UltraSound Sparse Regularization framework which permits high-quality imaging at fast rates and with a very low memory footprint. The framework, based on highly parallelizable, parametric, matrix-free formulations of the measurement model and its adjoint as well as on well-chosen sparsity priors, is implemented on multi-threaded architectures and evaluated on the publicly available PICMUS dataset.
+Ultrafast ultrasound(US) imaging uses unfocused waves to insonify the whole medium of interest at once, allowing pulse-echo US imaging to achieve very high frame rates, at the cost of a lower image quality. In this paper, we present USSR, an UltraSound Sparse Regularization framework which permits high-quality imaging at fast rates and with a very low memory footprint. The framework, based on highly parallelizable, parametric, matrix-free formulations of the measurement model and its adjoint as well as on well-chosen sparsity priors, is implemented on multi-threaded architectures and evaluated on the publicly available PICMUS dataset.
 
 ## Code to reproduce the results
 Available at https://github.com/LTS5/USSR.
