@@ -1,0 +1,80 @@
+% Typesetting
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%\usepackage{lmodern} % latin modern font
+\usepackage{csquotes} % pro­vides ad­vanced fa­cil­i­ties for in­line and dis­play quo­ta­tions (better to load when using biblatex)
+\usepackage{textcomp} % pro­vide many text sym­bols (such as baht, bul­let, copy­right, mu­si­cal­note, onequar­ter, sec­tion, and yen), in the TS1 en­cod­ing
+%\usepackage{setspace}
+%\onehalfspacing % 1.5 linespaceing
+%\usepackage{fancyhdr} % pro­vides ex­ten­sive fa­cil­i­ties, both for con­struct­ing head­ers and foot­ers, and for con­trol­ling the
+
+\usepackage{siunitx}
+\sisetup{
+	group-digits = integer, % only group digits (by three) for integers (not decimals)
+	binary-units = true, % load binary units
+	detect-all
+}
+%\usepackage{enumitem}
+%\setlist[enumerate]{label*=\arabic*.,topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=0pt}
+%\setlist[itemize]{topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=0pt}
+%\usepackage{bigfoot} % The pack­age aims to pro­vide a ‘one-stop’ so­lu­tion to re­quire­ments for foot­notes
+%\usepackage{afterpage} % to use \footnotemark and \footnotetext in captions for special cases
+\usepackage{algorithm} % the al­go­rithm pack­age de­fines a float­ing al­go­rithm en­vi­ron­ment de­signed to work with the al­go­rith­mic style
+\usepackage{algorithmic}
+%\usepackage{algpseudocode} % The algorithmicx package provides many possibilities to customize the layout of algorithms.
+\usepackage{newunicodechar}
+\usepackage{pifont}
+
+% Math
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{bm}
+%\usepackage{mathtools}
+
+% Figures
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\usepackage{xcolor}
+%\usepackage[font=small, labelfont=bf, format=plain, labelsep=space, figurename=Figure, tablename=Table, skip=5pt]{caption}
+%\usepackage[labelfont=rm, labelformat=parens, labelsep=space, skip=2pt]{subcaption}
+\usepackage[skip=2pt]{subcaption}
+%	IEEE caption set-up
+\captionsetup[figure]{name=Fig.}
+\captionsetup[table]{name=TABLE, font=footnotesize, labelfont=up, textfont=sc, labelsep=newline, justification=centering}
+\captionsetup[subfigure]{labelformat=simple}
+\renewcommand*{\thesubfigure}{(\alph{subfigure})} % adds parens around subfigure label for clean subreference using \ref{} or \subref{}. Must be used with subcaption options, labelformat=simple and subrefformat=simple (not sure to be required...)
+\usepackage{tikz}
+%\usepackage{pgfgantt}
+
+% Tables
+\usepackage{multirow}
+%\usepackage{adjustbox}
+%\usepackage{makecell}
+\usepackage{longtable} % use of \linebreak instead of \\ in headers to avoid a bug with longtables (or longtabu) across two pages
+\usepackage{tabu}
+%	\tabulinesep = 4pt
+	\tabcolsep = 4pt
+\usepackage{booktabs}
+%\usepackage{colortbl}
+
+% Others
+%\usepackage[draft]{pdfpages} % include pdf pages
+\usepackage{calc}
+%\usepackage{rotating}
+\usepackage{todonotes} % \todo, \missingfigures and \listoftodos
+\usepackage{xifthen} % This pack­age ex­tends the ifthen pack­age by im­ple­ment­ing new com­mands to go within the first ar­gu­ment of \ifthenelse
+\usepackage{xparse} % The pack­age pro­vides a high-level in­ter­face for pro­duc­ing doc­u­ment-level com­mands. 
+\usepackage{etoolbox} % The package is a toolbox of programming facilities geared primarily towards LaTeX class and package authors. 
+\usepackage{xstring}
+\usepackage{xspace} % useful for newcommands and spacing
+
+% References and URLs
+\usepackage{cleveref}
+\crefname{table}{Table}{Tables} % default: table
+\crefname{figure}{Fig.}{Fig.} % default: figure
+\crefname{section}{Section}{Section} % default: section
+\crefname{equation}{Equation}{Equation} % default: eq.
+\usepackage{url}
