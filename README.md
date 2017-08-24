@@ -1,7 +1,7 @@
 # USSR: An UltraSound Sparse Regularization framework
 [Ecole Polytechnique Fédérale de Lausanne (EPFL)]: http://www.epfl.ch/
 [Signal Processing Laboratory (LTS5)]: http://lts5www.epfl.ch
-[IEEE International Ultrasonics Symposium (IUS 2017)]: http://2017.ieeeicip.org/
+[IEEE International Ultrasonics Symposium (IUS 2017)]: http://ewh.ieee.org/conf/ius/2017/
 [Institute of Sensors, Signals and Systems]: https://www.hw.ac.uk/schools/engineering-physical-sciences/institutes/sensors-signals-systems/basp.htm
 [Heriot-Watt University]:https://www.hw.ac.uk/
 
