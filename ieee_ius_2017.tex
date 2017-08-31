@@ -198,7 +198,7 @@ A very similar procedure may be achieved to compute the adjoint operator of the 
 		\end{enumerate}
 	\end{enumerate}
 \end{enumerate}
-Regarding the optimization algorithm, Problem~\eqref{eq_regularization_problem} is solved using the fast iterative shrinkage algorithm~(FISTA)~\cite{Beck_SIAM_2009} in which each step involves the evaluation of the measurement model and the adjoint, in order to compute the derivative of the data-discrepancy term. Two implementations of the framework are proposed, one using CUDA for NVIDIA GPU platforms and one using OpenMP for CPU platforms\footnote{Code available at \url{https://github.com/LTS5/USSR}}.
+Regarding the optimization algorithm, Problem~\eqref{eq_regularization_problem} is solved using the fast iterative shrinkage algorithm~(FISTA)~\cite{Beck_SIAM_2009} in which each step involves the evaluation of the measurement model and the adjoint, in order to compute the derivative of the data-discrepancy term. Two implementations of the framework are proposed, one using CUDA for NVIDIA GPU platforms and one using OpenMP for CPU platforms\footnote{Code available at \url{https://github.com/LTS5/USSR-IUS2017}}.
 \section{Applications of USSR}
 \label{sec_ussr_applications}
 \subsection{Experimental settings}
